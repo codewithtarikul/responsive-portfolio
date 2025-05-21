@@ -59,6 +59,7 @@
     border-radius: 5px;
     cursor: pointer;
     width: 250px;
+    margin-bottom: 20px;
     
 }
 .btn-primary2{
@@ -67,7 +68,6 @@
     padding: 20px 35px;
     font-size: 20px;
     font-weight: 500;
-    margin-left: 20px;
     border-radius: 5px;
     width: 250px;
     cursor: pointer;
