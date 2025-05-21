@@ -48,7 +48,10 @@
 }
 
 /* End */
-
+.btn-main{
+    display: flex;
+    gap: 30px;
+}
 .btn-primary {
     background-color: #FD6E0A;
     color: aliceblue;
@@ -65,10 +68,11 @@
 .btn-primary2{
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
-    padding: 20px 35px;
+    padding: 12px 35px;
     font-size: 20px;
     font-weight: 500;
     border-radius: 5px;
+    height: 65px;
     width: 250px;
     cursor: pointer;
 }
@@ -256,7 +260,7 @@ nav li a{
    padding: 130px 230px;
 }
 .footer input[type="text"], .footer input[type="email"], .footer textarea{
-    height: 64px;
+    height: 44px;
     border-radius: 5px;
     background-color: white;
     color: #757575;
@@ -365,4 +369,8 @@ nav li a{
    .about-para{
     text-align: center;
    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    
 }
